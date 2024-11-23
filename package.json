@@ -1,0 +1,39 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Priyavarshini",
+  "license": "ISC",
+  "description": "Backend repository for fsdwdtb6 -- ReceipeApp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyavarshini20/fsdwdtb6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Priyavarshini20/fsdwdtb6/issues"
+  },
+  "homepage": "https://github.com/Priyavarshini20/fsdwdtb6#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "token": "^0.1.0",
+    "web": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "nodemon": "^3.1.7"
+  }
+}
